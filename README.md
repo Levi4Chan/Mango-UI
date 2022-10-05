@@ -66,4 +66,8 @@ local Enemies2 = {
 "Marine2"
 }
 DropRef:Refresh(Enemies2)
+-- Label Refreshing
+local LabelRef = TabFarm:Label("This is a Label")
+
+LabelRef:Refresh("Lol New Title")
 ```
